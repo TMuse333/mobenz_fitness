@@ -1,0 +1,15 @@
+.herobanner-container{
+    width:100vw;
+
+}
+
+.herobanner-container img{
+    width:90vw;
+    object-fit: cover;
+}
+
+@media screen and (min-width:655px){
+    .herobanner-container img{
+        height:90vh
+    }
+}

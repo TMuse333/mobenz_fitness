@@ -1,0 +1,31 @@
+.herobanner-container{
+    width:100vw;
+    position: relative;
+
+}
+
+.herobanner-container img{
+    width:100vw;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+.herobanner-title{
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translateX(-50%);
+
+}
+
+@media screen and (min-width:655px){
+    .herobanner-container img{
+        height:90vh;
+        object-position: 0% 10%;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .herobanner-container img{
+        object-position: 0 40%;
+    }
+}

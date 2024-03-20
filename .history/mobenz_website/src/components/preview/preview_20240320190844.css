@@ -1,0 +1,60 @@
+.program-details{
+    text-align: left;
+    /* margin-left: 2rem; */
+    margin:0 auto;
+}
+
+.program-container .gallery-container{
+    width:80vw;
+    max-width: 315px;
+
+    margin: 0 auto
+}
+
+.program-details h2{
+    font-weight: bold;
+  
+}
+
+.program-details-grid {
+    margin:0 auto;
+    width:100vw;
+    background-color: red;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 250px 200px; /* Two columns, each 200px wide */
+   
+    ; /* Optional gap between grid items */
+    
+  }
+
+
+
+.program-container .image-gallery-content .image-gallery-slide .image-gallery-image{
+max-width: 300px;
+object-fit: cover;
+
+}
+
+.preview-container{
+    width:100vw;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:865px){
+.program-details{
+    width:200px;
+}
+
+.carousel-description-container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.program-container .image-gallery-content .image-gallery-slide .image-gallery-image{
+    height:500px;
+    object-fit: cover;
+    
+    }
+}
