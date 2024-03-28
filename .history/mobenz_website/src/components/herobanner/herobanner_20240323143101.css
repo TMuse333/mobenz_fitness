@@ -33,7 +33,7 @@
 }
 
 .hero-description p{
-    background-color: rgba(0, 0, 0,0.6);
+    background-color: rgb(0, 0, 0);
     border-radius: 1rem;
     padding: 0.5rem;
 }
